@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Cakes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header><h1>Our Cakes 🍰</h1></header>
+<nav>
+<a href="index.html">Home</a>
+<a href="cakes.html">Cakes</a>
+<a href="pastries.html">Pastries</a>
+<a href="cookies.html">Cookies</a>
+<a href="puffs.html">Puffs</a>
+<a href="contact.html">Contact</a>
+</nav>
+<section class="products">
+<div class="card">
+<img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=500" alt="Chocolate cake">
+<h3>Chocolate Cake</h3><p>₹450</p>
+</div>
+<div class="card">
+<img src="https://images.unsplash.com/photo-1535141192574-5d4897c12636?w=500" alt="Birthday cake">
+<h3>Birthday Cake</h3><p>₹550</p>
+</div>
+</section>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Contact Us</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header><h1>Contact Sweet Treats</h1></header>
+<nav>
+<a href="index.html">Home</a>
+<a href="cakes.html">Cakes</a>
+<a href="pastries.html">Pastries</a>
+<a href="cookies.html">Cookies</a>
+<a href="puffs.html">Puffs</a>
+<a href="contact.html">Contact</a>
+</nav>
+<section class="banner">
+<h2>Visit Our Bakery</h2>
+<p>📍 Agiripalli, Andhra Pradesh</p>
+<p>📞 9876543210</p>
+<p>✉️ sweettreats@example.com</p>
+<a class="btn" href="mailto:sweettreats@example.com">Email Us</a>
+</section>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Cookies</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header><h1>Our Cookies 🍪</h1></header>
+<nav>
+<a href="index.html">Home</a>
+<a href="cakes.html">Cakes</a>
+<a href="pastries.html">Pastries</a>
+<a href="cookies.html">Cookies</a>
+<a href="puffs.html">Puffs</a>
+<a href="contact.html">Contact</a>
+</nav>
+<section class="products">
+<div class="card">
+<img src="https://images.unsplash.com/photo-1499636136210-6f4ee915583e?w=500" alt="Chocolate chip cookies">
+<h3>Chocolate Cookies</h3><p>₹120</p>
+</div>
+<div class="card">
+<img src="https://images.unsplash.com/photo-1558961363-fa8fdf82db35?w=500" alt="Butter cookies">
+<h3>Butter Cookies</h3><p>₹100</p>
+</div>
+</section>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Pastries</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header><h1>Our Pastries 🧁</h1></header>
+<nav>
+<a href="index.html">Home</a>
+<a href="cakes.html">Cakes</a>
+<a href="pastries.html">Pastries</a>
+<a href="cookies.html">Cookies</a>
+<a href="puffs.html">Puffs</a>
+<a href="contact.html">Contact</a>
+</nav>
+<section class="products">
+<div class="card">
+<img src="https://images.unsplash.com/photo-1488477181946-6428a0291777?w=500" alt="Cream pastry">
+<h3>Cream Pastry</h3><p>₹70</p>
+</div>
+<div class="card">
+<img src="https://images.unsplash.com/photo-1499636136210-6f4ee915583e?w=500" alt="Chocolate treat">
+<h3>Chocolate Treat</h3><p>₹80</p>
+</div>
+</section>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Puffs</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header><h1>Our Puffs 🥐</h1></header>
+<nav>
+<a href="index.html">Home</a>
+<a href="cakes.html">Cakes</a>
+<a href="pastries.html">Pastries</a>
+<a href="cookies.html">Cookies</a>
+<a href="puffs.html">Puffs</a>
+<a href="contact.html">Contact</a>
+</nav>
+<section class="products">
+<div class="card">
+<img src="veg.webp" alt="Bakery snack">
+<h3>Veg Puff</h3><p>₹25</p>
+</div>
+<div class="card">
+<img src="https://images.unsplash.com/photo-1509440159596-0249088772ff?w=500" alt="Fresh baked snack">
+<h3>Fresh Puff</h3><p>₹30</p>
+</div>
+</section>
+</body>
+</html>
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff8f0;
+    color: #4b2929;
+}
+
+header {
+    background-color: #7b263a;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+nav {
+    background-color: #f4b6a6;
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    color: #4b2020;
+    text-decoration: none;
+    margin: 12px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: white;
+}
+
+.banner {
+    text-align: center;
+    padding: 65px 20px;
+    background: linear-gradient(#ffe0c2, #ffc6b5);
+}
+
+.banner h2 {
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+
+.banner p {
+    margin-bottom: 20px;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #9b3048;
+    color: white;
+    text-decoration: none;
+    padding: 10px 18px;
+    border-radius: 6px;
+    margin: 10px 0;
+}
+
+.btn:hover {
+    background-color: #57202d;
+}
+
+.products {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+    padding: 30px 15px;
+}
+
+.card {
+    background-color: white;
+    width: 250px;
+    padding: 15px;
+    text-align: center;
+    border-radius: 12px;
+    box-shadow: 0 3px 10px #d8bdb5;
+}
+
+.card img {
+    width: 100%;
+    height: 170px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.card h3 {
+    margin: 12px;
+    color: #8b263e;
+}
+
+.card p {
+    margin: 10px;
+}
+
+.card h4 {
+    color: green;
+    font-size: 20px;
+}
+
+.offer {
+    background-color: #f8d6a5;
+    text-align: center;
+    padding: 30px;
+}
+
+footer {
+    background-color: #7b263a;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+footer a {
+    color: white;
+}
+
+@media (max-width: 600px) {
+    nav a {
+        display: inline-block;
+        margin: 6px;
+    }
+
+    .card {
+        width: 90%;
+    }
+}
+
